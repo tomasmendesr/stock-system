@@ -53,7 +53,7 @@
        <span>Reporte Ventas</span>
       </a>
       <ul class="nav submenu">
-        <li><a href="sales_report.php">Ventas por Dia </a></li>
+        <li><a href="sales_report.php">Ventas Entre</a></li>
         <li><a href="monthly_sales.php">Ventas Mensuales</a></li>
         <li><a href="daily_sales.php">Ventas Diarias</a> </li>
       </ul>
