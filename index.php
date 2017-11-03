@@ -6,18 +6,17 @@
 <?php include_once('layouts/header.php'); ?>
 <div class="login-page">
     <div class="text-center">
-       <h1>Bienvenido</h1>
-       <p>Inicie Sesión</p>
+       <h1>Iniciar Sesión</h1>
      </div>
      <?php echo display_msg($msg); ?>
       <form method="post" action="auth.php" class="clearfix">
         <div class="form-group">
               <label for="username" class="control-label">Username</label>
-              <input type="name" class="form-control" name="username" placeholder="Username">
+              <input type="name" class="form-control" name="username" placeholder="Username" required>
         </div>
         <div class="form-group">
             <label for="Password" class="control-label">Contraseña</label>
-            <input type="password" name= "password" class="form-control" placeholder="Ingrese la clave">
+            <input type="password" name= "password" class="form-control" placeholder="Ingrese la clave" required>
         </div>
         <div class="form-group">
                 <button type="submit" class="btn btn-info  pull-right">Login</button>
